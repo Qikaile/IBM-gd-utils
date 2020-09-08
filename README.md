@@ -56,5 +56,10 @@ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/artx
 
 结束
 
+# 出错总结
+Download Accounts File 出错，SA打包文件accounts.zip上传到Google Drive中，其中下载url 可以用goindex直链
 
+IBM Cloud密码不要有符号，例如&。否则Login Cloud Foundry 出错
+
+能安装完成，就是tg BOT中help没有反应，登录IBM Cloud,检查 CF App 容器名 和你自己取的是不是不一样,改成 us-south.cf.appdomain.cloud.
 
